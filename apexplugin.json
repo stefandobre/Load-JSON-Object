@@ -21,7 +21,7 @@
       "plugin" : {
         "internalName" : "COM.STEFANDOBRE.LOAD_JSON_OBJECT",
         "type" : "process",
-        "demo" : "https://github.com/stefandobre/Load-JSON-Object",
+        "demo" : "https://apex.oracle.com/pls/apex/f?p=60314:2",
         "previewImage" : "https://raw.githubusercontent.com/stefandobre/Load-JSON-Object/master/misc/demo.gif"
       }
     }
