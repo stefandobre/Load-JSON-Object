@@ -1,0 +1,28 @@
+{
+  "name" : "Load JSON Object",
+  "version" : "1.0",
+  "description" : "This small utility plugin adds a JSON Object to the page already at render time. For small sets of data, you don't have to bother with AJAX requests. As source for the JSON Object, you can choose 'SQL Query', 'SQL Query returning JSON Object', 'PL/SQL Procedure' or provide it as plain text.",
+  "keywords" : ["json", "process", "clob"],
+  "homepage" : "https://github.com/stefandobre/Load-JSON-Object",
+  "license" : "MIT",
+  "author" : {
+    "name" : "Stefan Dobre",
+    "email" : "svdobre@gmail.com",
+    "url" : "https://github.com/stefandobre"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/stefandobre/Load-JSON-Object"
+  },
+ "oracle" : {
+    "versions" : ["11.2.0.1", "12.1.0.1", "12.2.0.1", "18.1.0"],
+    "apex" : {
+      "versions" : ["18.2.0", "19.1.0"],
+      "plugin" : {
+        "internalName" : "COM.STEFANDOBRE.LOAD_JSON_OBJECT",
+        "type" : "process",
+        "demo" : "https://github.com/stefandobre/Load-JSON-Object"
+      }
+    }
+  }
+}
